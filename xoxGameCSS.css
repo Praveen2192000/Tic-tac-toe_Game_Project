@@ -1,0 +1,162 @@
+/* nav /Header */
+.containCls {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  height: 65px;
+}
+
+h3 {
+  font-family: fantasy;
+  font-size: calc(1.3rem + 0.6vw);
+  color: burlywood;
+  margin-inline: 12px;
+  background: darkolivegreen;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 1px 5px 0 rgb(244 11 226 / 61%),
+    0 2px 10px 0 rgb(224 11 245 / 50%);
+}
+
+.volumeUp {
+  display: flex;
+  margin-right: 55px;
+  /* display: none; */
+}
+
+.volumeDown {
+  display: none;
+  margin-right: 55px;
+}
+/* -------------------------------- */
+
+.mainBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  height: 437px;
+}
+
+#turnId {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.turnChanging {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  box-shadow: 0 1px 5px 0 rgb(86 83 85 / 41%),
+    0 2px 10px 0 rgb(171 165 171 / 50%);
+  height: 30px;
+  width: max-content;
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+#playersId {
+  border: none;
+  border-radius: 4px;
+  margin-inline: 3px;
+  font-family: cursive;
+}
+.xoxBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  height: 210px;
+  margin-inline: 75px;
+  background-color: antiquewhite;
+  width: 244px;
+  box-shadow: 0 1px 5px 0 rgb(86 83 85 / 41%),
+    0 2px 10px 0 rgb(171 165 171 / 50%);
+}
+
+.box {
+  display: flex;
+  width: 64px;
+  height: 55px;
+  border-radius: 4px;
+  font-size: xxx-large;
+  background-color: burlywood;
+  margin: 7px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px 0 rgb(86 83 85 / 41%),
+    0 2px 10px 0 rgb(171 165 171 / 50%);
+  cursor: pointer;
+}
+
+.box:hover {
+  box-shadow: 0 1px 5px 0 rgba(27, 130, 234, 0.41),
+    0 2px 10px 0 rgba(60, 136, 251, 0.5);
+}
+
+.restartGameCls:hover {
+  box-shadow: 0 1px 5px 0 rgba(244, 11, 11, 0.41),
+    0 2px 10px 0 rgba(240, 7, 15, 0.5);
+}
+
+.restartGameCls {
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgb(86 83 85 / 41%),
+    0 2px 10px 0 rgb(171 165 171 / 50%);
+}
+
+#restartGameId {
+  display: none;
+}
+
+.playGame {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+#playId {
+  width: 82px;
+  border: none;
+  height: 44px;
+  border-radius: 5px;
+  background-color: sienna;
+  color: floralwhite;
+  font-family: monospace;
+}
+
+#playId:hover {
+  background-color: rgb(173, 119, 94);
+  box-shadow: 0 1px 5px 0 rgba(4, 44, 84, 0.41),
+    0 2px 10px 0 rgba(21, 46, 84, 0.5);
+}
+
+#winnerId {
+  font-family: fantasy;
+  font-size: xx-large;
+  background-color: skyblue;
+  padding: 12px;
+  height: 100px;
+  border-radius: 5px;
+  rotate: -22deg;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
